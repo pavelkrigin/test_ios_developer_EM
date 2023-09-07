@@ -56,15 +56,55 @@
 		CADECB362AAA1DBB00592064 /* test_ios_developer_EM */ = {
 			isa = PBXGroup;
 			children = (
-				CADECB372AAA1DBB00592064 /* AppDelegate.swift */,
-				CADECB392AAA1DBB00592064 /* SceneDelegate.swift */,
+				CADECB4E2AAA5E8600592064 /* Models */,
+				CADECB4D2AAA5E7800592064 /* ViewModels */,
+				CADECB4C2AAA5E6800592064 /* Views */,
+				CADECB4B2AAA5E2000592064 /* Application */,
 				CADECB3B2AAA1DBB00592064 /* ViewController.swift */,
 				CADECB3D2AAA1DBB00592064 /* Main.storyboard */,
+				CADECB4F2AAA5EA100592064 /* Supporting Files */,
+			);
+			path = test_ios_developer_EM;
+			sourceTree = "<group>";
+		};
+		CADECB4B2AAA5E2000592064 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CADECB372AAA1DBB00592064 /* AppDelegate.swift */,
+				CADECB392AAA1DBB00592064 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CADECB4C2AAA5E6800592064 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CADECB4D2AAA5E7800592064 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CADECB4E2AAA5E8600592064 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CADECB4F2AAA5EA100592064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				CADECB402AAA1DBE00592064 /* Assets.xcassets */,
 				CADECB422AAA1DBE00592064 /* LaunchScreen.storyboard */,
 				CADECB452AAA1DBE00592064 /* Info.plist */,
 			);
-			path = test_ios_developer_EM;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LKCXB3W5BN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = test_ios_developer_EM/Info.plist;
+				INFOPLIST_FILE = "test_ios_developer_EM/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LKCXB3W5BN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = test_ios_developer_EM/Info.plist;
+				INFOPLIST_FILE = "test_ios_developer_EM/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
