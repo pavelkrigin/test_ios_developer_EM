@@ -13,6 +13,8 @@
 		CADECB412AAA1DBE00592064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADECB402AAA1DBE00592064 /* Assets.xcassets */; };
 		CADECB442AAA1DBE00592064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADECB422AAA1DBE00592064 /* LaunchScreen.storyboard */; };
 		CADECB512AB3106100592064 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADECB502AB3106100592064 /* Hotel.swift */; };
+		CADECB532AB3111800592064 /* HotelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADECB522AB3111800592064 /* HotelViewModel.swift */; };
+		CADECB552AB311D500592064 /* HotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADECB542AB311D500592064 /* HotelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CADECB432AAA1DBE00592064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CADECB452AAA1DBE00592064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CADECB502AB3106100592064 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		CADECB522AB3111800592064 /* HotelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewModel.swift; sourceTree = "<group>"; };
+		CADECB542AB311D500592064 /* HotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		CADECB4C2AAA5E6800592064 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CADECB542AB311D500592064 /* HotelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 		CADECB4D2AAA5E7800592064 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CADECB522AB3111800592064 /* HotelViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -180,7 +186,9 @@
 				CADECB3C2AAA1DBB00592064 /* MainViewController.swift in Sources */,
 				CADECB382AAA1DBB00592064 /* AppDelegate.swift in Sources */,
 				CADECB512AB3106100592064 /* Hotel.swift in Sources */,
+				CADECB532AB3111800592064 /* HotelViewModel.swift in Sources */,
 				CADECB3A2AAA1DBB00592064 /* SceneDelegate.swift in Sources */,
+				CADECB552AB311D500592064 /* HotelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

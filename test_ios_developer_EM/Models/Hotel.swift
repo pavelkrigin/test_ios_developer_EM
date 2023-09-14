@@ -11,5 +11,5 @@ struct Hotel: Codable {
     let name: String
     let address: String
     let photos: [String]
-    // Добавbnm другие свойства по необходимости позже
+    // Добавить другие свойства по необходимости позже
 }
