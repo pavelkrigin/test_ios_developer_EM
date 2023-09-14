@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene) //чтобы связать окно со сценой через windowScene
-        window?.rootViewController = ViewController()//Определяем VC с которого будет осуществляться загрузка
+        window?.rootViewController = MainViewController()//Определяем VC с которого будет осуществляться загрузка
         window?.makeKeyAndVisible() // и отображаем его на экране
     }   
 }

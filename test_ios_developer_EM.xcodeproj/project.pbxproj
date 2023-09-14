@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		CADECB382AAA1DBB00592064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADECB372AAA1DBB00592064 /* AppDelegate.swift */; };
 		CADECB3A2AAA1DBB00592064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADECB392AAA1DBB00592064 /* SceneDelegate.swift */; };
-		CADECB3C2AAA1DBB00592064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADECB3B2AAA1DBB00592064 /* ViewController.swift */; };
+		CADECB3C2AAA1DBB00592064 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADECB3B2AAA1DBB00592064 /* MainViewController.swift */; };
 		CADECB412AAA1DBE00592064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADECB402AAA1DBE00592064 /* Assets.xcassets */; };
 		CADECB442AAA1DBE00592064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADECB422AAA1DBE00592064 /* LaunchScreen.storyboard */; };
+		CADECB512AB3106100592064 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADECB502AB3106100592064 /* Hotel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CADECB342AAA1DBB00592064 /* test_ios_developer_EM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_ios_developer_EM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADECB372AAA1DBB00592064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CADECB392AAA1DBB00592064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CADECB3B2AAA1DBB00592064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CADECB3B2AAA1DBB00592064 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CADECB402AAA1DBE00592064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CADECB432AAA1DBE00592064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CADECB452AAA1DBE00592064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADECB502AB3106100592064 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,7 @@
 				CADECB4E2AAA5E8600592064 /* Models */,
 				CADECB4C2AAA5E6800592064 /* Views */,
 				CADECB4D2AAA5E7800592064 /* ViewModels */,
-				CADECB3B2AAA1DBB00592064 /* ViewController.swift */,
+				CADECB3B2AAA1DBB00592064 /* MainViewController.swift */,
 				CADECB4F2AAA5EA100592064 /* Supporting Files */,
 			);
 			path = test_ios_developer_EM;
@@ -90,6 +92,7 @@
 		CADECB4E2AAA5E8600592064 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CADECB502AB3106100592064 /* Hotel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,8 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CADECB3C2AAA1DBB00592064 /* ViewController.swift in Sources */,
+				CADECB3C2AAA1DBB00592064 /* MainViewController.swift in Sources */,
 				CADECB382AAA1DBB00592064 /* AppDelegate.swift in Sources */,
+				CADECB512AB3106100592064 /* Hotel.swift in Sources */,
 				CADECB3A2AAA1DBB00592064 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
